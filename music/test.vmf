@@ -1,0 +1,74 @@
+vmf
+solid
+{
+  "id" "1"
+  "plane" "(0 0 0) (64 0 0) (0 64 0)"
+  "plane" "(0 0 0) (64 0 0) (64 64 0)"
+  "plane" "(0 0 0) (0 64 0) (0 64 64)"
+  "plane" "(0 0 0) (64 64 0) (0 64 64)"
+  "plane" "(0 0 64) (64 0 64) (0 64 64)"
+  "plane" "(64 0 64) (64 64 64) (64 64 0)"
+  "material" "tools/toolsnodraw"
+  "uaxis" "[1 0 0 0] 0.25"
+  "vaxis" "[0 -1 0 0] 0.25"
+  "rotation" "0"
+  "lightmapscale" "16"
+  "smoothing_groups" "0"
+  side { }
+  side { }
+  side { }
+  side { }
+  side { }
+  side { }
+  editor
+  {
+    "color" "0 180 220"
+    "visgroupid" "0"
+  }
+}
+
+solid
+{
+  "id" "2"
+  "plane" "(64 0 0) (128 0 0) (64 64 0)"
+  "plane" "(64 0 0) (128 0 0) (128 64 0)"
+  "plane" "(64 0 0) (64 64 0) (64 64 64)"
+  "plane" "(64 0 0) (128 64 0) (64 64 64)"
+  "plane" "(64 0 64) (128 0 64) (64 64 64)"
+  "plane" "(128 0 64) (128 64 64) (128 64 0)"
+  "material" "tools/toolsnodraw"
+  "uaxis" "[1 0 0 0] 0.25"
+  "vaxis" "[0 -1 0 0] 0.25"
+  "rotation" "0"
+  "lightmapscale" "16"
+  "smoothing_groups" "0"
+  side { }
+  side { }
+  side { }
+  side { }
+  side { }
+  side { }
+  editor
+  {
+    "color" "0 180 220"
+    "visgroupid" "0"
+  }
+}
+
+info_player_start
+{
+  "origin" "96 32 32"
+}
+
+light_environment
+{
+  "origin" "64 32 32"
+  "lightstyle" "0"
+  "color" "255 255 255"
+  "ambient" "10 10 10"
+  "diffuse" "20 20 20"
+  "specular" "0 0 0"
+  "attenuation0" "2"
+  "attenuation1" "0.5"
+  "attenuation2" "0.25"
+}
